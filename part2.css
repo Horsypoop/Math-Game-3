@@ -1,0 +1,59 @@
+body
+{
+	background: lightgreen;
+}
+
+#player1_score{
+    color:red;
+}
+
+
+#player2_score{
+    color:blue;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+
+.score_span {
+    background-color: aqua;
+  width:15%;
+  float:left;
+  border-radius: 20%;
+   }  
+
+.Question_Answer_span {
+    background-color: rgb(109, 69, 69);
+  color:white;
+    float: right;
+   margin-top:0px;
+   border-radius: 20%;
+   width:15%;
+    }  
+    
+    #player1_name,#player2_name{
+        display: inline-block;
+        margin-left: 20px;
+    }
+  #qn,#ans{
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    #output
+    {
+        background : white;
+        border-radius: 10px;
+        border-top: 10px solid red;
+        padding: 10px;
+        float: none;
+        text-align: left;
+    }
